@@ -1,0 +1,23 @@
+#brands{
+    display:flex;
+    width: 100%;
+    height: 60vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#brands p{
+    margin: 2vh 0px;
+    font-size: 3rem;
+    text-align: center;
+}
+#brand_images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 30vh;
+    width: 100%;
+}
+#brand_images img{
+    margin: 4vh 0px;
+    width: 25%;
+}
